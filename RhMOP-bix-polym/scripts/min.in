@@ -39,6 +39,6 @@ min_modify       line quadratic
 minimize         1.0e-4 1.0e-4 1000 100000
 
 # Restart file
-write_restart    restart.min
+write_data    min.lmps
 
 # DONE
