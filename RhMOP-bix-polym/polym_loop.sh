@@ -223,7 +223,7 @@ echo "Polymerization Loop"
 echo "-------------------"
 
 # Polymerization initialization
-polymInit
+#polymInit
 
 #
 # Step 0
@@ -309,7 +309,7 @@ while [[ bonds -lt bondsTotal ]]; do
 done
 
 # Polymerization finalization
-polymFinal
+#polymFinal
 
 # Percent complete
 percent=`echo "scale=10; $bonds/$bondsTotal * 100" | bc`

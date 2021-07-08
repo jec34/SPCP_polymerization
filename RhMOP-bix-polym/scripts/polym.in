@@ -1,4 +1,3 @@
 link      Rh_x,Rh6+3 N_x,N_R
-charge    +0.3 -0.3
 cutoff    6.0
-intra     true 
+intra     true
