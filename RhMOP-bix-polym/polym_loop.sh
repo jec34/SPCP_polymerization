@@ -1,7 +1,7 @@
 #!/bin/bash
 #$ -M jcarpen3@nd.edu
 #$ -m abe
-#$ -q long
+#$ -q debug
 
 ###############################################################################
 #
@@ -157,9 +157,9 @@ function energyMin
 	# Run energy minimization
 	mpirun lmp_mpi < min.in > out
 	[[ -a log.lammps && -a out ]] \
-		|| errExit "Minimization did not complete properly."
-	[[ `tail -1 log.lammps` == "# DONE" ]] \
-		|| errExit "Minimization did not complete properly."
+		|| errExit "Minimization did not complete properly 1."
+#	[[ `tail -1 log.lammps` == "# DONE" ]] \
+#		|| errExit "Minimization did not complete properly 2."
 
 	# Convert restart to data
 	./../scripts/restart2data restart.* min.lmps > restart.out
