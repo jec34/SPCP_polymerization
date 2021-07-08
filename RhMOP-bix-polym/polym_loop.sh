@@ -228,6 +228,7 @@ echo "-------------------"
 #
 # Step 0
 #
+cpErr data.lmps temp.lmps
 
 # Energy minimization
 mkdirStep
