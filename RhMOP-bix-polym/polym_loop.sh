@@ -158,8 +158,8 @@ function energyMin
 	mpirun lmp_mpi < min.in > out
 	[[ -a log.lammps && -a out ]] \
 		|| errExit "Minimization did not complete properly 1."
-#	[[ `tail -1 log.lammps` == "# DONE" ]] \
-#		|| errExit "Minimization did not complete properly 2."
+	[[ `tail -2 log.lammps | head -1` == "# DONE" ]] \
+		|| errExit "Minimization did not complete properly 2."
 
 	# Convert restart to data
 	./../scripts/restart2data restart.* min.lmps > restart.out
