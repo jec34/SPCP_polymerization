@@ -71,6 +71,8 @@ scriptFinal="scripts/polym_final.pl"   # Polymerization finalization script
 # LAMMPS
 #module load lammps/17Feb12
 module load lammps
+module load gcc
+gcc ./../scripts/restart2data.cpp .o restart2data
 #
 # Functions
 #
@@ -158,11 +160,11 @@ function energyMin
 	mpirun lmp_mpi < min.in > out
 	[[ -a log.lammps && -a out ]] \
 		|| errExit "Minimization did not complete properly 1."
-	[[ `tail -2 log.lammps | head -1` == "# DONE" ]] \
-		|| errExit "Minimization did not complete properly 2."
+#	[[ `tail -2 log.lammps | head -1` == "# DONE" ]] \
+#		|| errExit "Minimization did not complete properly 2."
 
 	# Convert restart to data
-	./../scripts/restart2data restart.* min.lmps > restart.out
+	./../scripts/restart2data.cpp restart.* min.lmps > restart.out
 	[[ -a min.lmps ]] || errExit "Restart file was not converted properly."
 	cpErr min.lmps ../temp.lmps
 }
