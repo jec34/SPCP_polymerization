@@ -1,9 +1,10 @@
 import os
+import sys
 
 # Fix LAMMPS datafile by replacing the header (all coefficients and coefficient types)
 
 def main():
-    in_file = './min.lmps'
+    in_file = sys.argv[1]
     ref_file = './../data.lmps'
 
     with open(in_file, 'r') as f:

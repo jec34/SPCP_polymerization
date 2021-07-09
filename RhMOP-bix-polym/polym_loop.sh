@@ -145,6 +145,7 @@ function polymStep
 	# Polymerization step
 	./../$scriptPolym -i init.lmps -t ../types.txt -s ../$inputPolym \
 		-o data.lmps
+	python fix_data.py ./data.lmps
 	status=$?
 }
 
@@ -166,7 +167,7 @@ function energyMin
 	# Convert restart to data
 #	./../scripts/restart2data restart.* min.lmps > restart.out
 #	[[ -a min.lmps ]] || errExit "Restart file was not converted properly."
-	python fix_data.py
+	python fix_data.py ./min.lmps
 	cpErr min.lmps ../temp.lmps
 }
 
