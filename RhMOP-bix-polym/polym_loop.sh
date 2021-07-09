@@ -1,7 +1,7 @@
 #!/bin/bash
 #$ -M jcarpen3@nd.edu
 #$ -m abe
-#$ -q debug
+#$ -q long
 
 ###############################################################################
 #
@@ -49,8 +49,8 @@
 #
 
 bonds=0          # initial number of bonds (0 unless restart)
-bondsTotal=10    # total number of bonds to form
-bondsCycle=5     # bonds to form per cycle
+bondsTotal=350    # total number of bonds to form
+bondsCycle=10     # bonds to form per cycle
 mdMax=25         # maximum number of MD steps on bond attempts
 cycleMd=3        # number of cycles between md steps of type 2
 
@@ -115,6 +115,7 @@ function mkdirMd
 	mkdir $directory || errExit "Could not make directory '$directory'."
         cd $directory
 	cpErr ../scripts/fix_coeffs.py fix_coeffs.py
+	cpErr ../scripts/fix_data.py fix_data.py
 }
 
 # Polymerization initialization
@@ -202,13 +203,13 @@ function molDyn
 #		./../../scripts/restart2data restart.* md.lmps > restart.out
 		[[ -a md.lmps ]] \
 			|| errExit "Restart file was not converted properly."
-		python fix_coeffs.py ./md.lmps
-		cpErr md.lmps ../init.lmps
+		python fix_data.py ./md.lmps
+		cpErr md.lmps ../temp.lmps
 	else
 #		./../scripts/restart2data restart.* md.lmps > restart.out
 		[[ -a md.lmps ]] \
                         || errExit "Restart file was not converted properly."
-					python fix_coeffs.py ./md.lmps
+					python fix_data.py ./md.lmps
         	cpErr md.lmps ../temp.lmps
 	fi
 }

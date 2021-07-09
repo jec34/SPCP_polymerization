@@ -39,6 +39,6 @@ run              10000
 unfix            1
 
 # Restart file
-write_restart    md.lmps
+write_data       md.lmps
 
 # DONE

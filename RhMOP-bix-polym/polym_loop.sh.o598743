@@ -1,0 +1,471 @@
+Loading lammps/03Mar20/intel/19.0
+  Loading requirement: intel/19.0 ompi/4.0.1/intel/19.0
+Loading python/3.7.3
+  Loading requirement: tcl/8.6.8 gcc/8.3.0
+Polymatic Simulated Polymerization
+
+Parameters
+----------
+Initial bonds:             0
+Total bonds:               10
+Bonds per cycle:           5
+Period of MD type 2:       3
+
+Polymerization Loop
+-------------------
+Step 0:
+Step 1:
+Did not find dihedral type 'N_R,C_R,C_R,N_R,31540,31537,31565,31564'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,5943,5856,5944,5978'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,5941,5881,5942,5978'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,N_R,C_3,31564,31539,31540,31541'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'H_,C_R,C_R,N_R,31538,31537,31565,31564'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'Rh6+3,O_R,C_R,O_R,5978,5948,6090,5947'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,5945,5893,5946,5978'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'C_R,N_R,C_R,C_R,31539,31564,31565,31537'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'Rh6+3,N_R,C_R,N_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_3'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 840.
+  Pair: 3.37 A (5978,31564)
+  Attempts: 1
+Step 2:
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,149,25,150,200'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,C_R,H_,27335,27336,27338,27339'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,145,1,146,200'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'C_3,N_R,C_R,N_R,27330,27333,27334,27335'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,151,37,152,200'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,C_R,N_R,27335,27336,27338,27333'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,147,13,148,200'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'C_R,N_R,C_R,C_R,27334,27335,27336,27338'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'Rh6+3,N_R,C_R,N_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_3'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 840.
+  Pair: 3.50 A (200,27335)
+  Attempts: 1
+Step 3:
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,15269,15217,15270,15302'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,15265,15205,15266,15302'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'C_R,N_R,C_R,C_R,28531,28556,28557,28529'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'H_,C_R,C_R,N_R,28530,28529,28557,28556'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'Rh6+3,O_R,C_R,O_R,15302,15272,15414,15271'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,C_R,N_R,28532,28529,28557,28556'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,N_R,C_3,28556,28531,28532,28533'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,15267,15180,15268,15302'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'Rh6+3,N_R,C_R,N_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_3'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 840.
+  Pair: 3.66 A (15302,28556)
+  Attempts: 1
+Step 4:
+Did not find dihedral type 'C_R,N_R,C_R,C_R,30246,30247,30248,30250'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,17689,17623,17690,17730'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'C_3,N_R,C_R,N_R,30242,30245,30246,30247'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,17693,17598,17694,17730'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,17691,17550,17692,17730'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,C_R,N_R,30247,30248,30250,30245'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,C_R,H_,30247,30248,30250,30251'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,17687,17611,17688,17730'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'Rh6+3,N_R,C_R,N_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_3'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 840.
+  Pair: 4.04 A (17730,30247)
+  Attempts: 1
+Step 5:
+Did not find dihedral type 'N_R,C_R,N_R,C_3,31596,31571,31572,31573'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,25245,25158,25246,25280'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'C_R,N_R,C_R,C_R,31571,31596,31597,31569'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,25243,25183,25244,25280'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'H_,C_R,C_R,N_R,31570,31569,31597,31596'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,25249,24972,25250,25280'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,C_R,N_R,31572,31569,31597,31596'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,25247,25195,25248,25280'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'Rh6+3,N_R,C_R,N_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_3'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 840.
+  Pair: 4.21 A (25280,31596)
+  Attempts: 1
+Step 6:
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,3481,3415,3482,3522'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'C_3,N_R,C_R,N_R,29634,29637,29638,29639'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,3479,3403,3480,3522'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,C_R,H_,29639,29640,29642,29643'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'C_R,N_R,C_R,C_R,29638,29639,29640,29642'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,C_R,N_R,29639,29640,29642,29637'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,3485,3390,3486,3522'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,3483,3342,3484,3522'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,N_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_3'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find improper type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 840.
+  Pair: 2.67 A (3522,29639)
+  Attempts: 1
+Step 7:
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,6603,6558,6604,6634'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'C_R,N_R,C_R,C_R,32115,32140,32141,32113'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,C_R,N_R,32116,32113,32141,32140'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,6609,6312,6610,6634'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'H_,C_R,C_R,N_R,32114,32113,32141,32140'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,6607,6559,6608,6634'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,N_R,C_3,32140,32115,32116,32117'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,6605,6474,6606,6634'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'Rh6+3,N_R,C_R,N_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_3'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find improper type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 840.
+  Pair: 2.85 A (6634,32140)
+  Attempts: 1
+Step 8:
+Did not find dihedral type 'C_R,N_R,C_R,C_R,29523,29548,29549,29521'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'Rh6+3,O_R,C_R,O_R,19746,19722,19782,19721'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'H_,C_R,C_R,N_R,29522,29521,29549,29548'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,C_R,N_R,29524,29521,29549,29548'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,19727,19656,19728,19746'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,N_R,C_3,29548,29523,29524,29525'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,19725,19596,19726,19746'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'Rh6+3,O_R,C_R,O_R,19746,19724,19890,19723'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'Rh6+3,N_R,C_R,N_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_3'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 840.
+  Pair: 2.91 A (19746,29548)
+  Attempts: 1
+Step 9:
+Did not find dihedral type 'C_R,N_R,C_R,C_R,27974,27975,27976,27978'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,17907,17773,17908,17960'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,17911,17797,17912,17960'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,17905,17761,17906,17960'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'C_3,N_R,C_R,N_R,27970,27973,27974,27975'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,17909,17785,17910,17960'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,C_R,N_R,27975,27976,27978,27973'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,C_R,H_,27975,27976,27978,27979'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'Rh6+3,N_R,C_R,N_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_3'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 840.
+  Pair: 3.25 A (17960,27975)
+  Attempts: 1
+Step 10:
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,18155,17796,18156,18180'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,18161,18090,18162,18180'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,C_R,N_R,29940,29937,29965,29964'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,18159,18030,18160,18180'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'O_R,C_R,O_R,Rh6+3,18157,17904,18158,18180'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'C_R,N_R,C_R,C_R,29939,29964,29965,29937'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'N_R,C_R,N_R,C_3,29964,29939,29940,29941'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'H_,C_R,C_R,N_R,29938,29937,29965,29964'. at ./../scripts/polym.pl line 649.
+Did not find dihedral type 'Rh6+3,N_R,C_R,N_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,N_R,C_R,H_'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,O_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'O_R,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_3'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'N_R,Rh6+3,Rh6+3,O_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find dihedral type 'Rh6+3,Rh6+3,N_R,C_R'. at ./../scripts/polym.pl line 820.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,O_R'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'N_R,Rh6+3,O_R,Rh6+3'. at ./../scripts/polym.pl line 840.
+Did not find improper type 'Rh6+3,N_R,C_R,C_R'. at ./../scripts/polym.pl line 840.
+  Pair: 3.25 A (18180,29964)
+  Attempts: 1
+
+Summary
+-------
+Bonds completed:           10
+Percent complete:          100.0%
