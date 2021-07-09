@@ -71,6 +71,7 @@ scriptFinal="scripts/polym_final.pl"   # Polymerization finalization script
 # LAMMPS
 #module load lammps/17Feb12
 module load lammps
+module load python
 #
 # Functions
 #
@@ -153,6 +154,7 @@ function energyMin
 	# Copy files
 	[[ bonds -eq 0 ]] && cpErr ../temp.lmps data.lmps
 	cpErr ../$inputMin min.in
+	cpErr ../scripts/fix_data.py fix_data.py
 
 	# Run energy minimization
 	mpirun lmp_mpi < min.in > out
@@ -164,6 +166,7 @@ function energyMin
 	# Convert restart to data
 #	./../scripts/restart2data restart.* min.lmps > restart.out
 #	[[ -a min.lmps ]] || errExit "Restart file was not converted properly."
+	python fix_data.py
 	cpErr min.lmps ../temp.lmps
 }
 
