@@ -649,7 +649,9 @@ sub makeUpdates
 			warn("Did not find dihedral type '$t1,$t2,$t3,$t4,$a1,$a2,$a3,$a4'.")
 				if ($type2 == -1);
 
+			if ($type2 != -1){
 			$diheds[$num] = [$type2, $a1, $a2, $a3, $a4];
+			}
 		}
 
 		# Impropers
@@ -818,8 +820,10 @@ sub makeUpdates
 		warn("Did not find dihedral type '$t1,$t2,$t3,$t4'.")
 			if ($type1 == -1);
 
+		if ($type1 != -1) {
 		$numDiheds++;
 		$diheds[$numDiheds] = [$type1, $a1, $a2, $a3, $a4];
+	  }
 	}
 
 	# Add new impropers
@@ -836,8 +840,10 @@ sub makeUpdates
 		warn("Did not find improper type '$t1,$t2,$t3,$t4'.")
 			if ($type1 == -1);
 
+		if ($type1 != -1) {
 		$numImprops++;
 		$improps[$numImprops] = [$type1, $a1, $a2, $a3, $a4];
+		}
 	}
 
 	# Get min and max molecule numbers
