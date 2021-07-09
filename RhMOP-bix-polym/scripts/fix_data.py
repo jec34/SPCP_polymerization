@@ -5,7 +5,7 @@ import sys
 
 def main():
     in_file = sys.argv[1]
-    ref_file = './../data.lmps'
+    ref_file = './../ref.lmps'
 
     with open(in_file, 'r') as f:
         lines = f.readlines()

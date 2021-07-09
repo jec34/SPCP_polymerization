@@ -96,6 +96,8 @@ function mkdirStep
 	directory=step_$(printf "%03d" $bonds)
 	mkdir $directory || errExit "Could not make directory '$directory'."
 	cd $directory
+	cpErr ../scripts/fix_data.py fix_data.py
+	cpErr ../scripts/fix_coeffs.py fix_coeffs.py
 }
 
 # Make directory for MD step
@@ -145,7 +147,7 @@ function polymStep
 	# Polymerization step
 	./../$scriptPolym -i init.lmps -t ../types.txt -s ../$inputPolym \
 		-o data.lmps
-	python fix_data.py ./data.lmps
+	python fix_coeffs.py ./data.lmps
 	status=$?
 }
 
@@ -155,7 +157,6 @@ function energyMin
 	# Copy files
 	[[ bonds -eq 0 ]] && cpErr ../temp.lmps data.lmps
 	cpErr ../$inputMin min.in
-	cpErr ../scripts/fix_data.py fix_data.py
 
 	# Run energy minimization
 	mpirun lmp_mpi < min.in > out
