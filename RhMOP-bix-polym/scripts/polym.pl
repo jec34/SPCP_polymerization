@@ -644,15 +644,16 @@ sub makeUpdates
 			$t2 = $atomTypes[$atomType[$a2]];
 			$t3 = $atomTypes[$atomType[$a3]];
 			$t4 = $atomTypes[$atomType[$a4]];
-
 			$type2 = getType([$t1, $t2, $t3, $t4], \@dihedTypes, 0);
-			errExit("Did not find dihedral type '$t1,$t2,$t3,$t4'.")
+			# errExit("Did not find dihedral type '$t1,$t2,$t3,$t4,$a1,$a2,$a3,$a4'.")
+			warn("Did not find dihedral type '$t1,$t2,$t3,$t4,$a1,$a2,$a3,$a4'.")
 				if ($type2 == -1);
 
 			$diheds[$num] = [$type2, $a1, $a2, $a3, $a4];
 		}
 
 		# Impropers
+=a
 		@updatedImprops = (@{$atomImpropNums[$b1]}, @{$atomImpropNums[$b2]});
 		@updatedImprops = (uniqueArray(@updatedImprops));
 
@@ -671,6 +672,7 @@ sub makeUpdates
 
 			$improps[$num] = [$type2, $a1, $a2, $a3, $a4];
 		}
+=cut
 	}
 
 	# Define new angles, dihedrals, and impropers
@@ -812,7 +814,8 @@ sub makeUpdates
 		$t4 = $atomTypes[$atomType[$a4]];
 
 		$type1 = getType([$t1, $t2, $t3, $t4], \@dihedTypes, 0);
-		errExit("Did not find dihedral type '$t1,$t2,$t3,$t4'.")
+		# errExit("Did not find dihedral type '$t1,$t2,$t3,$t4'.")
+		warn("Did not find dihedral type '$t1,$t2,$t3,$t4'.")
 			if ($type1 == -1);
 
 		$numDiheds++;
@@ -829,7 +832,8 @@ sub makeUpdates
 		$t4 = $atomTypes[$atomType[$a4]];
 
 		$type1 = getType([$t1, $t2, $t3, $t4], \@impropTypes, 1);
-		errExit("Did not find improper type '$t1,$t2,$t3,$t4'.")
+		#errExit("Did not find improper type '$t1,$t2,$t3,$t4'.")
+		warn("Did not find improper type '$t1,$t2,$t3,$t4'.")
 			if ($type1 == -1);
 
 		$numImprops++;
@@ -1836,6 +1840,7 @@ sub writeLammps
 		}
 		printf FILE "\n";
 
+=a
 		# BondBond Coeffs
 		printf FILE "BondBond Coeffs\n\n";
 		for (my $i = 1; $i <= $numAngleTypes; $i++)
@@ -1861,6 +1866,7 @@ sub writeLammps
 				$i, $values[0], $values[1], $values[2], $values[3];
 		}
 		printf FILE "\n";
+=cut
 	}
 
 	if ($numDihedTypes > 0)
@@ -1880,6 +1886,7 @@ sub writeLammps
 		}
 		printf FILE "\n";
 
+=a
 		# MiddleBondTorsion Coeffs
 		printf FILE "MiddleBondTorsion Coeffs\n\n";
 		for (my $i = 1; $i <= $numDihedTypes; $i++)
@@ -1950,6 +1957,7 @@ sub writeLammps
 				$i, $values[0], $values[1], $values[2];
 		}
 		printf FILE "\n";
+=cut
 	}
 
 	if ($numImpropTypes > 0)
@@ -1967,6 +1975,7 @@ sub writeLammps
 		}
 		printf FILE "\n";
 
+=a
 		# AngleAngle Coeffs
 		printf FILE "AngleAngle Coeffs\n\n";
 		for (my $i = 1; $i <= $numImpropTypes; $i++)
@@ -1980,7 +1989,9 @@ sub writeLammps
 				$values[5];
 		}
 		printf FILE "\n";
+=cut
 	}
+
 
 	if ($numAtoms > 0)
 	{
