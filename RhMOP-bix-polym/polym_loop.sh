@@ -193,19 +193,21 @@ function molDyn
 	mpirun lmp_mpi < md.in > out
 	[[ -a log.lammps && -a out ]] \
 		|| errExit "Molecular dynamics did not complete properly."
-	[[ `tail -1 log.lammps` == "# DONE" ]] \
-                || errExit "Molecular dynamics did not complete properly."
+#	[[ `tail -1 log.lammps` == "# DONE" ]] \
+#                || errExit "Molecular dynamics did not complete properly."
 
 	# Convert restart to data
 	if [[ $1 -eq 0 ]]; then
-		./../../scripts/restart2data restart.* md.lmps > restart.out
+#		./../../scripts/restart2data restart.* md.lmps > restart.out
 		[[ -a md.lmps ]] \
 			|| errExit "Restart file was not converted properly."
+		python fix_coeffs ./md.lmps
 		cpErr md.lmps ../init.lmps
 	else
-		./../scripts/restart2data restart.* md.lmps > restart.out
+#		./../scripts/restart2data restart.* md.lmps > restart.out
 		[[ -a md.lmps ]] \
                         || errExit "Restart file was not converted properly."
+					python fix_coeffs ./md.lmps
         	cpErr md.lmps ../temp.lmps
 	fi
 }

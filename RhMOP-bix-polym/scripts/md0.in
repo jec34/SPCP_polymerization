@@ -38,6 +38,6 @@ run              5000
 unfix            1
 
 # Restart file
-write_data    md0.lmps
+write_data    md.lmps
 
 # DONE
