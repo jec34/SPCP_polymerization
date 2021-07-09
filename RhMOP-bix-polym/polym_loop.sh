@@ -114,6 +114,7 @@ function mkdirMd
 
 	mkdir $directory || errExit "Could not make directory '$directory'."
         cd $directory
+	cpErr ../scripts/fix_coeffs.py fix_coeffs.py
 }
 
 # Polymerization initialization
@@ -201,13 +202,13 @@ function molDyn
 #		./../../scripts/restart2data restart.* md.lmps > restart.out
 		[[ -a md.lmps ]] \
 			|| errExit "Restart file was not converted properly."
-		python fix_coeffs ./md.lmps
+		python fix_coeffs.py ./md.lmps
 		cpErr md.lmps ../init.lmps
 	else
 #		./../scripts/restart2data restart.* md.lmps > restart.out
 		[[ -a md.lmps ]] \
                         || errExit "Restart file was not converted properly."
-					python fix_coeffs ./md.lmps
+					python fix_coeffs.py ./md.lmps
         	cpErr md.lmps ../temp.lmps
 	fi
 }
