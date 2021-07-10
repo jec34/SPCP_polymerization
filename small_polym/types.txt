@@ -1,0 +1,65 @@
+atom types
+    1    C_R
+    2    H_
+    3    O_R
+    4    O_3
+    5    Rh6+3
+    6    N_R
+    7    C_3
+    8    Rh_x
+    9    N_x
+
+bond types
+    1   C_R,C_R
+    2   C_R,O_R
+    3   C_R,C_R
+    4   C_R,H_
+    5   O_R,Rh6+3
+    6   O_3,Rh6+3
+    7   O_3,H_
+    8   Rh6+3,Rh6+3
+    9   Rh6+3,N_R
+    10  C_R,N_R
+    11  N_R,C_3
+    12  C_3,H_
+    13  C_3,C_R
+
+angle types
+    1     C_R,C_R,O_R
+    2     O_R,C_R,O_R
+    3     C_R,C_R,C_R
+    4     C_R,C_R,C_R
+    5     C_R,C_R,H_
+    6     C_R,O_R,Rh6+3
+    7     Rh6+3,O_3,H_
+    8     H_,O_3,H_
+    9     O_R,Rh6+3,O_R
+    10    O_R,Rh6+3,O_3
+    11    O_R,Rh6+3,Rh6+3
+    12    O_3,Rh6+3,Rh6+3
+    13    O_R,Rh6+3,N_R
+    14    Rh6+3,Rh6+3,N_R
+    15    H_,C_R,N_R
+    16    N_R,C_R,C_R
+    17    N_R,C_R,N_R
+    18    C_R,N_R,C_R
+    19    C_R,N_R,C_3
+    20    N_R,C_3,H_
+    21    N_R,C_3,C_R
+    22    H_,C_3,H_
+    23    H_,C_3,H_
+    24    C_3,C_R,C_R
+    25    Rh6+3,N_R,C_R
+
+dihedral types
+    1     O_R,C_R,C_R,C_R
+    2     C_R,C_R,O_R,Rh6+3
+    3     C_R,C_R,C_R,H_
+    4     C_R,N_R,C_3,H_
+    5     N_R,C_3,C_R,C_R
+    6     H_,C_R,N_R,C_R
+    7     N_R,C_R,N_R,C_R
+
+improper types
+    1     C_R,C_R,O_R,O_R
+    2     H_,C_R,N_R,C_R

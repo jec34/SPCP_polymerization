@@ -1,0 +1,3 @@
+link      Rh_x,Rh6+3 N_x,N_R
+cutoff    6.0
+intra     true
