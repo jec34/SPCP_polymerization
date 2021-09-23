@@ -1,0 +1,127 @@
+LAMMPS (3 Mar 2020)
+  using 1 OpenMP thread(s) per MPI task
+# Molecular dynamics NVT script with class2 ff for simulated polymerization
+
+# General
+units           real
+atom_style      full
+newton          on
+boundary        p p p
+
+# Style
+#pair_style     lj/cut/coul/long 12.500
+pair_style      lj/cut 12.500
+bond_style      harmonic
+angle_style     hybrid cosine/periodic fourier
+dihedral_style  harmonic
+improper_style  fourier
+pair_modify     tail yes mix arithmetic
+special_bonds   lj/coul 0.0 0.0 1.0
+#kspace_style    ewald 1.0e-4
+
+# Atom Definition
+read_data        data.lmps
+  orthogonal box = (5.09413 5.09413 5.09413) to (74.9059 74.9059 74.9059)
+  2 by 2 by 2 MPI processor grid
+  reading atoms ...
+  12080 atoms
+  reading velocities ...
+  12080 velocities
+  scanning bonds ...
+  3 = max bonds/atom
+  scanning angles ...
+  15 = max angles/atom
+  scanning dihedrals ...
+  8 = max dihedrals/atom
+  scanning impropers ...
+  3 = max impropers/atom
+  reading bonds ...
+  14110 bonds
+  reading angles ...
+  26810 angles
+  reading dihedrals ...
+  27200 dihedrals
+  reading impropers ...
+  15720 impropers
+  6 = max # of 1-2 neighbors
+  11 = max # of 1-3 neighbors
+  17 = max # of special neighbors
+  special bonds CPU = 0.00139568 secs
+  read_data CPU = 0.138878 secs
+
+# Settings
+dielectric       1.0
+neighbor         2.0 bin
+neigh_modify     delay 0 every 1 check yes
+timestep         1.0
+run_style        verlet
+
+# Output
+thermo_style     custom step vol temp press etotal pe ke evdwl ecoul ebond eangle edihed eimp
+thermo           500
+
+# MD step
+fix              1 all nvt temp 1000 1000 100.0
+velocity         all create 1000 58531416
+run              5000
+Neighbor list info ...
+  update every 1 steps, delay 0 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 14.5
+  ghost atom cutoff = 14.5
+  binsize = 7.25, bins = 10 10 10
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/newton
+      stencil: half/bin/3d/newton
+      bin: standard
+WARNING: Inconsistent image flags (src/domain.cpp:785)
+Per MPI rank memory allocation (min/avg/max) = 16.12 | 16.77 | 17.38 Mbytes
+Step Volume Temp Press TotEng PotEng KinEng E_vdwl E_coul E_bond E_angle E_dihed E_impro 
+       0    340239.87         1000    638.61214    91088.586    55083.381    36005.205    5294.6657            0    17505.196    22392.943    9275.8239    614.75189 
+     500    340239.87    1005.5324   -674.20409      91073.8    54869.399    36204.401    5051.7365            0    17338.962    22390.816    9464.5612    623.32338 
+    1000    340239.87    995.12226   -327.23188     90824.97     54995.39    35829.581    5232.9316            0    17597.666     22121.32    9408.5942    634.87759 
+    1500    340239.87    992.38141   -493.13131    90714.568    54983.673    35730.896    5159.0107            0     17649.04    22148.199     9413.133    614.29035 
+    2000    340239.87    1000.9064   -181.20099    90913.652    54875.813    36037.839    5176.9877            0     17735.41    22136.713    9227.6006    599.10157 
+    2500    340239.87    1004.2388     359.8218    91419.031    55261.206    36157.825    5215.1567            0    17719.953    22235.952    9470.2632    619.88129 
+    3000    340239.87    997.74429   -8.7378119    91051.683    55127.696    35923.987    5258.4844            0     17795.79    22276.667     9198.751     598.0034 
+    3500    340239.87    988.84352    44.007672    90802.094    55198.581    35603.513    5268.2524            0    17486.383    22429.727    9377.4719    636.74593 
+    4000    340239.87    992.27841   -188.85287    90285.998    54558.811    35727.187    5117.9514            0    17362.378    22042.704    9408.6168    627.16063 
+    4500    340239.87     1000.336    477.95376    90665.023    54647.721    36017.302    5239.8422            0    17317.645     21971.13     9491.831    627.27201 
+    5000    340239.87    999.32869   -709.03368    91038.665    55057.631    35981.034    5029.7692            0    18049.265    21955.822    9397.3964    625.37835 
+Loop time of 56.1917 on 8 procs for 5000 steps with 12080 atoms
+
+Performance: 7.688 ns/day, 3.122 hours/ns, 88.981 timesteps/s
+99.0% CPU use with 8 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 18.587     | 29.262     | 40.591     | 145.0 | 52.08
+Bond    | 2.7249     | 3.7292     | 4.6256     |  37.1 |  6.64
+Neigh   | 8.4912     | 8.5047     | 8.5177     |   0.3 | 15.14
+Comm    | 1.9599     | 14.153     | 25.825     | 226.7 | 25.19
+Output  | 0.00053066 | 0.00056791 | 0.00076047 |   0.0 |  0.00
+Modify  | 0.21936    | 0.26207    | 0.28159    |   3.6 |  0.47
+Other   |            | 0.2796     |            |       |  0.50
+
+Nlocal:    1510 ave 1880 max 1124 min
+Histogram: 2 1 0 0 1 0 0 2 0 2
+Nghost:    7819.88 ave 8206 max 7541 min
+Histogram: 2 0 0 1 3 0 1 0 0 1
+Neighs:    397942 ave 554262 max 251852 min
+Histogram: 1 1 1 1 0 1 1 0 0 2
+
+Total # of neighbors = 3183537
+Ave neighs/atom = 263.538
+Ave special neighs/atom = 6.77483
+Neighbor list builds = 462
+Dangerous builds = 0
+unfix            1
+
+# Restart file
+write_data    md.lmps
+
+# DONE
+Total wall time: 0:00:56
